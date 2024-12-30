@@ -1,0 +1,61 @@
+/*
+Error: Invalid CSS after "...ckground: light": expected ";", was ".$white;"
+        on line 13 of C:\xampp\htdocs\eq\libs\apex-charts\apex-charts.scss
+
+8: // Light style
+9: @if $enable-light-style {
+10:   .light-style {
+11:     .apexcharts-canvas {
+12:       .apexcharts-tooltip {
+13:         background: light.$white;
+14:         border-color: light.$border-color;
+15:         box-shadow: light.$popover-box-shadow;
+16:         .apexcharts-tooltip-title {
+17:           background: light.$white;
+18:           border-color: light.$border-color;
+
+Backtrace:
+C:\xampp\htdocs\eq\libs\apex-charts\apex-charts.scss:13
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:815:in `block in try_declaration'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1284:in `rethrow'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:820:in `try_declaration'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:743:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:331:in `if_directive'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:234:in `special_directive'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:209:in `directive'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `load'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ckground: light\": expected \";\", was \".$white;\"\A         on line 13 of C:\xampp\htdocs\eq\libs\apex-charts\apex-charts.scss\A \A 8: // Light style\A 9: @if $enable-light-style {\A 10:   .light-style {\A 11:     .apexcharts-canvas {\A 12:       .apexcharts-tooltip {\A 13:         background: light.$white;\A 14:         border-color: light.$border-color;\A 15:         box-shadow: light.$popover-box-shadow;\A 16:         .apexcharts-tooltip-title {\A 17:           background: light.$white;\A 18:           border-color: light.$border-color;"; }

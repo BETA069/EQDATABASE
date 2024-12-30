@@ -1,0 +1,57 @@
+/*
+Error: Invalid CSS after "...nd-color: light": expected ";", was ".$gray-400;"
+        on line 59 of C:\xampp\htdocs\eq\libs\perfect-scrollbar\perfect-scrollbar.scss
+
+54: // Light layout
+55: @if $enable-light-style {
+56:   .light-style {
+57:     .ps__thumb-x,
+58:     .ps__thumb-y {
+59:       background-color: light.$gray-400;
+60:     }
+61: 
+62:     .ps__rail-x:hover,
+63:     .ps__rail-y:hover,
+64:     .ps__rail-x:focus,
+
+Backtrace:
+C:\xampp\htdocs\eq\libs\perfect-scrollbar\perfect-scrollbar.scss:59
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:815:in `block in try_declaration'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1284:in `rethrow'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:820:in `try_declaration'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:743:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:331:in `if_directive'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:234:in `special_directive'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:209:in `directive'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/lib/ruby/gems/3.0.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `load'
+D:/Dreamweaver/Adobe Dreamweaver 2021/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...nd-color: light\": expected \";\", was \".$gray-400;\"\A         on line 59 of C:\xampp\htdocs\eq\libs\perfect-scrollbar\perfect-scrollbar.scss\A \A 54: // Light layout\A 55: @if $enable-light-style {\A 56:   .light-style {\A 57:     .ps__thumb-x,\A 58:     .ps__thumb-y {\A 59:       background-color: light.$gray-400;\A 60:     }\A 61: \A 62:     .ps__rail-x:hover,\A 63:     .ps__rail-y:hover,\A 64:     .ps__rail-x:focus,"; }
